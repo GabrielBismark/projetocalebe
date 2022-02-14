@@ -24,8 +24,6 @@ CABEÇALHO
 */
 
 .cabecalho{
-
-    background-attachment: fixed;
     z-index: 1;
     background-color: var(--cormenu);
     color: white;
@@ -116,8 +114,9 @@ SEGUNDA SEÇÃO
     background-color: var(--cor01);
 }
 .s2 img{
+    margin: 0 auto;
     display: block;
-    
+    align-self: center;
 }
 
 .textos2{
@@ -125,9 +124,42 @@ SEGUNDA SEÇÃO
     display: flex;
     max-width: 900px;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
+}
+.textos2 > div{
+    display: flex;
+    flex-direction: column;
 }
 .textos2 > div h1{
     color: white;
-    font-size: 25px;
+    font-size: 45px;
+}
+.textos2 > div h1 span{
+color: #1F1F23;
+}
+.textos2 div p{
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+}
+.textos2 div p:last-of-type{
+    padding-bottom: 50px;
+}
+#lm{
+    border: 1px solid black;
+    padding: 10px 30px 10px 30px;
+    background-color: var(--cor01);
+    font-size: 15px;
+    align-self: center;
+}
+
+/* 
+
+
+TERCEIRA SEÇÃO
+
+
+*/
+
+.s3{
+    align-self: center;
 }
