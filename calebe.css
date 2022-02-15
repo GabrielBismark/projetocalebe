@@ -24,6 +24,7 @@ CABEÇALHO
 */
 
 .cabecalho{
+    
     z-index: 1;
     background-color: var(--cormenu);
     color: white;
